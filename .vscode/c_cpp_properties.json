@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/rohit/zephyr/include",
+                "${workspaceFolder}/rohit/zephyr/include/generated",
+                "~/code/zephyrproject/zephyr/include",
+                "~/code/zephyrproject/zephyr/include/generated",
+                "~/code/zephyrproject/zephyr/include/arch/arm/aarch32",
+                "${workspaceFolder}/old-generated"
+            ],
+            "defines": [
+                "zephyr_shell_uart=\"some\""
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-x64",
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}
