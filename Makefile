@@ -1,4 +1,4 @@
-source:
+source: src/main.c
 	cmake -Brohit
 
 build: source
